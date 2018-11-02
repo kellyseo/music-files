@@ -56,7 +56,7 @@ div.container {
 
 .columna {
 		float: left;
-		width: 35%;
+		width: 20%;
 		padding: 10px;
 		height: 30px;
 		text-align: center;
@@ -64,7 +64,7 @@ div.container {
 
 .columnb {
 		float: left;
-		width: 15%;
+		width: 30%;
 		padding: 10px;
 		height: 30px;
 		text-align: center;
@@ -92,6 +92,15 @@ div.container {
 }
 #SocialTab {
 	border: 1px solid black;
+}
+
+td{
+	text-align: left;
+	padding: 5px;
+}
+th{
+	text-align: center;
+	width: 50%;
 }
 
 * {
@@ -130,14 +139,10 @@ div.container {
   background-color: #eee;
 }
 
-th {
-    padding: 20px;
-}
 
-td {
-	padding: 20px;
-}
+/* CSS codes for the social media section e.g. the tabs */
 
+/* Style the tab */
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;

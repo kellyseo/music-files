@@ -36,7 +36,9 @@ function myFunction() {
     }
 }
 
-function openCity(evt, cityName) {
+// Codes for the social media section e.g. the tablinks
+
+function openTab(evt, platformName) {
     // Declare all variables
     var i, tabcontent, tablinks;
 
@@ -53,6 +55,6 @@ function openCity(evt, cityName) {
     }
 
     // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(platformName).style.display = "block";
     evt.currentTarget.className += " active";
 }
