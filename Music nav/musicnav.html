@@ -100,9 +100,9 @@
 				</ul>
 			</div>
 			<div class="columnc">
-			
+
 				<div class="tab">
-				  <button class="tablinks" onclick="openTab(event, 'Facebook')">Facebook</button>
+				  <button class="tablinks" onclick="openTab(event, 'Facebook')" id="defaultOpen">Facebook</button>
 				  <button class="tablinks" onclick="openTab(event, 'Instagram')">Instagram</button>
 				  <button class="tablinks" onclick="openTab(event, 'Internet')">Internet</button>
 				</div>
@@ -131,4 +131,8 @@
 
 
 	</body>
+	<script>
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
+	</script>
 	</html>
