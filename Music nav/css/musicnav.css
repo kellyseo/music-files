@@ -1,0 +1,131 @@
+/* applies to anything of class "example-class-selector" */
+.example-class-selector {
+	margin-top: 2em;
+}
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+.example-class-selector p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
+	color: #CC00AA;
+}
+
+/* this style exists to make it obvious that you've successfully linked
+   the CSS to the page. feel free to remove it once the link is working. */
+
+.jumbotron {
+	position: relative;
+	background: none;
+}
+
+
+.jumbotron p {
+     color: #6e6e6e;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+div.container {
+	border: 1px solid black;
+}
+
+.columna {
+		float: left;
+		width: 25%;
+		padding: 10px;
+		height: 30px;
+		text-align: center;
+}
+
+.columnb {
+		float: left;
+		width: 25%;
+		padding: 10px;
+		height: 30px;
+		text-align: center;
+}
+
+.columnc {
+		float: left;
+		width: 50%;
+		padding: 10px;
+		height: 30px;
+		text-align: center;
+}
+
+.row:after {
+		content: "";
+		display: table;
+		clear: both;
+}
+
+#Top10 {
+	border: 1px solid black;
+}
+#searchList {
+	border: 1px solid black;
+}
+#SocialTab {
+	border: 1px solid black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
