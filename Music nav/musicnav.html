@@ -88,7 +88,7 @@
 									</table>
 			</div>
 			<div class="columnb">
-				<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search what's trending now" title="Type in a name">
+				<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search what's trending" title="Type in a name">
 
 				<ul id="myUL">
 					<li><a href="#">Post Malone</a></li>
@@ -100,7 +100,33 @@
 				</ul>
 			</div>
 			<div class="columnc">
-				<h4 id="SocialTab">Facebook, Twitter, Instagram, Etc.</h3>
+					<div class="tab">
+					  <button class="tablinks" onclick="openCity(event, 'Facebook')">Facebook</button>
+					  <button class="tablinks" onclick="openCity(event, 'Instagram')">Instagram</button>
+					  <button class="tablinks" onclick="openCity(event, 'Twitter')">Twitter</button>
+						<button class="tablinks" onclick="openCity(event, 'Reddit')">Reddit</button>
+					</div>
+
+					<!-- Tab content -->
+					<div id="Facebook" class="tabcontent">
+					  <h3>Facebook</h3>
+					  <p>Facebook posts here</p>
+					</div>
+
+					<div id="Instagram" class="tabcontent">
+					  <h3>Instagram</h3>
+					  <p>Instagram posts here</p>
+					</div>
+
+					<div id="Twitter" class="tabcontent">
+					  <h3>Twitter</h3>
+					  <p>Twitter posts here</p>
+					</div>
+
+					<div id="Reddit" class="tabcontent">
+						<h3>Reddit</h3>
+						<p>Reddit posts here</p>
+					</div>
 			</div>
 
 
